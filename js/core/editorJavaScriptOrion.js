@@ -11,21 +11,30 @@
 **/
 "use strict";
 (function(){
-  var orionEditor;
+  var orionEditor = null;
+  var preloadedContent = null;
 
   function init() {
-    $('<div id="divcode" style="width:100%;height:100%;"><pre class="orioneditor" data-editor-lang="js" style="height:95%;">INITIAL</pre></div>').appendTo(".editor--code .editor__canvas");
+    $('<div id="divcode" style="width:100%;height:100%;display:none"><pre class="orioneditor" data-editor-lang="js" style="height:95%"></pre></div>').appendTo(".editor--code .editor__canvas");
     require(["orion/editor/edit"], function(edit) {
-      orionEditor = edit({className: "orioneditor"});
+
+      orionEditor = edit({className: "orioneditor", lang: "javascript"})[0];
+      orionEditor.setText(preloadedContent);
+
+      // all set up, ready to show the code frame
+      $("#divcode").show();
     });
   }
 
   function getCode() {
-    return orionEditor[0].getText();
+    return orionEditor.getText();
   }
   
   function setCode(code) {
-    orionEditor[0].setText(code);
+    if (orionEditor == null)
+      preloadedContent = code;
+    else
+      orionEditor.setText(code);
   }
   
   Espruino.Core.EditorJavaScript = {
