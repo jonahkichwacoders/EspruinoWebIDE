@@ -99,6 +99,28 @@ var Espruino;
     initialised : false,
   };
 
+
+
+
+  console.log("Installing onMessageExternal handler")
+  //blacklistedIds = ["none"];
+  chrome.runtime.onMessageExternal.addListener(
+    function(request, sender, sendResponse) {
+//      if (sender.id in blacklistedIds) {
+//        sendResponse({"result":"sorry, could not process your message"});
+//        return;  // don't allow this extension access
+//      } else 
+      if (request.download) {
+        console.log("from "+sender.id+": "+request.download);
+        Espruino.Core.EditorJavaScript.setCode(request.download);
+        //Espruino.Core.Send.send();
+        sendResponse({"result":"Ok, got your message"});
+      } else {
+        console.log("from "+sender.id+": unknown message");
+        sendResponse({"result":"Ops, I don't understand this message"});
+      }
+    });
+
 })();
 
 
