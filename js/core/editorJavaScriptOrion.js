@@ -23,22 +23,12 @@
       
 
       var temps = [
-      {
-        prefix: "SELECT", //$NON-NLS-0$
-        description: "Select table", //$NON-NLS-0$
-        template: "SELECT ${column} FROM ${table_name};" //$NON-NLS-1$ //$NON-NLS-0$
-      },
-      {
-        prefix: "INSERT INTO", //$NON-NLS-0$
-        description: "Insert in table", //$NON-NLS-0$
-        template: "INSERT INTO ${table_name} VALUES (${values});" //$NON-NLS-0$
-      }
       ];
       var keywords = [
-        "SELECT", //$NON-NLS-0$
-        "WHERE", //$NON-NLS-0$
-        "WHEN", //$NON-NLS-0$
-        "DELETE" //$NON-NLS-0$
+        "LED1",
+        "setInterval",
+        "digitalWrite",
+        "digitialRead"
       ];
       
       var contentAssist = editor.getContentAssist();
