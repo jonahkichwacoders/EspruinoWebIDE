@@ -9,6 +9,17 @@
   Handle URLS of the form http://www.espruino.com/webide?...
   These are sent from background.js and are picked up by the Web IDE
  ------------------------------------------------------------------
+ 
+  download=
+    Can be initiated with:
+    var code="var  l = false;\nsetInterval(function() {\n  l = !l;\n  LED1.write(l);\n}, \n100);"
+    var uri = "http://www.espruino.com/webide?download=";
+    var code_enc = encodeURIComponent(code);
+    var res = uri + code_enc;
+    // TODO is there a way of doing this without ending up with blank window
+    newWindow = window.open(res);
+    newWindow.close();
+    
 **/
 "use strict";
 (function(){
@@ -21,6 +32,10 @@
     switch(key){
       case "code":
         Espruino.Core.EditorJavaScript.setCode(val);
+        break;
+      case "download":
+        Espruino.Core.EditorJavaScript.setCode(val);
+        Espruino.Core.Send.send();
         break;
       case "gist":
         Espruino.Core.EditorJavaScript.setCode("Loading...");

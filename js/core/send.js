@@ -23,13 +23,7 @@
         name: "code", 
         position: "top"
       }, 
-      click: function() {
-        Espruino.Core.MenuPortSelector.ensureConnected(function() {
-          Espruino.Core.Terminal.focus(); // give the terminal focus
-          Espruino.callProcessor("sending");
-          Espruino.Core.Code.getEspruinoCode(Espruino.Core.CodeWriter.writeToEspruino);
-        });
-      }
+      click: send,
     });
     
     Espruino.addProcessor("connected", function(data, callback) {
@@ -42,7 +36,16 @@
     });     
   }
   
+  function send() {
+    Espruino.Core.MenuPortSelector.ensureConnected(function() {
+      Espruino.Core.Terminal.focus(); // give the terminal focus
+      Espruino.callProcessor("sending");
+      Espruino.Core.Code.getEspruinoCode(Espruino.Core.CodeWriter.writeToEspruino);
+    });
+  }
+  
   Espruino.Core.Send = {
     init : init,
+    send : send,
   };
 }());
