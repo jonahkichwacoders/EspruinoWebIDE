@@ -1,8 +1,0 @@
-{
-"version":3,
-"file":"Subsection.js",
-"lineCount":12,
-"mappings":"A;;;;;;;;;;AAgBAA,MAAA,IAAW,QAAA,GAQVC,QAASA,EAATA,CAAoBC,CAApBD,MACKE,EAAcD,CAAAC,YAClBC,gBAFDH,CAEmBC,CAAAE,WAClBC,cAHDJ,CAGiBC,CAAAG,SAEZC,EALLL,CAKYM,QAAAC,cAAA,WACXF,EAAAG,UAAAC,IAAA,eACAJ,EAAAK,aAAA,iBACAL,EAAAK,aAAA,uCARDV,KASKW,EAAYL,QAAAC,cAAA,MAChBI,EAAAH,UAAAC,IAAA,kBACAE,EAAAC,YAXDZ,CAWyBE,CACpBW,EAZLb,CAYeM,QAAAC,cAAA,OACdM,EAAAL,UAAAC,IAAA,mBACAJ,EAAAS,YAAA,CAAiBH,CAAjB,CACAN,EAAAS,YAAA,CAAiBD,CAAjB,CAEAR,UAjBDL,CAiBaK,CACZU,uBAlBDf,CAkB0Ba,CAlB1Bb,CAoBAA,CAAAgB,UAAAC,KA5BU;AA4BkBC,QAAAA,GACvBf,eADuBe,EAE1Bf,eAAAW,YAAA,CAA6BT,SAA7B,CAF0Ba,IAKvBd,aALuBc,MAMtBC,MACJf,cAAAgB,QAAA,CAAsB,QAAA,CAASC,CAAT,EACrBF,CAAAJ,kBAAAD,YAAA,CAAoCO,CAAAhB,KAApC,CACAgB,EAAAJ,KAAA,EAFqB,CAAtB,CAP0BC,EA5BlB,OAyCHlB,EAzCG,CAAX;",
-"sources":["Subsection.js.src"],
-"names":["define","Subsection","options","sectionName","parentNode","children","node","document","createElement","classList","add","setAttribute","titleNode","textContent","content","appendChild","subsectionContent","prototype","show","Subsection.prototype.show","that","forEach","child"]
-}

@@ -1,8 +1,0 @@
-{
-"version":3,
-"file":"ActivityContent.js",
-"lineCount":11,
-"mappings":"A;;;;;;;;;;AAaAA,MAAA,mBAA0B,QAAA,CAASC,CAAT,EAOzBC,QAASA,EAATA,CAA0BC,CAA1BD,CAAgCE,CAAhCF,GAGAD,CAAAI,MAAA,CAAcH,CAAAI,UAAd,iLAWiBC,QAAAA,SACRC,oBADQD,CAXjB,EAVyB,OA0BlBL,EA1BkB,CAA1B;",
-"sources":["ActivityContent.js.src"],
-"names":["define","objects","ActivityContent","node","body","mixin","prototype","getContentPane","templateString"]
-}

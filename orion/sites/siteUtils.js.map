@@ -1,8 +1,0 @@
-{
-"version":3,
-"file":"siteUtils.js",
-"lineCount":11,
-"mappings":"A;;;;;;;;;;AAaAA,MAAA,mDACE,QAAA,CAASC,CAAT,CAAkBC,CAAlB,CAA6BC,CAA7B,8BAQDC,QAAAA,CAA8BC,CAA9BD,MACKE,EAAOL,CAAAM,MAAA,mBADZH,OAEQI,CAAA,IAAIL,CAAJ,CAAgBG,CAAhB,wBAAAE,QAAA,WACIN,CAAAO,aAAA,CAAuBJ,CAAAK,SAAvB,CADJ,EAFRN,CARC,EADF;",
-"sources":["siteUtils.js.src"],
-"names":["define","require","mFileUtil","URITemplate","generateEditSiteHref","site","base","toUrl","expand","makeRelative","Location"]
-}

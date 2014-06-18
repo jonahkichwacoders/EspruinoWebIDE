@@ -1,8 +1,0 @@
-{
-"version":3,
-"file":"messages.js",
-"lineCount":11,
-"mappings":"A;;;;;;;;;AAYAA,MAAA,cAEC,4CAFD,8CAGC,oCAHD,sCAIC,yBAJD,2BAKC,kBALD,oBAMC,iCAND,mDAQC,6CARD,+DAUC,6CAVD;AAWC,kCAXD,oCAYC,iCAZD,mCAaC,uBAbD,yBAcC,wBAdD,0BAeC,mBAfD;",
-"sources":["messages.js.src"],
-"names":["define"]
-}

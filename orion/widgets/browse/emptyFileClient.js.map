@@ -1,8 +1,0 @@
-{
-"version":3,
-"file":"emptyFileClient.js",
-"lineCount":13,
-"mappings":"A;;;;;;;;;;AAgBAA,MAAA,oBAA2B,QAAA,CAASC,CAAT,EAoD1BC,QAASA,EAATA,IApD0B,IAEtBC,4FAFsB,CAUtBC,uGAVsB,CA0CtBC,aACQF,CADRE,yGAaJH,EAAAI,UAvD0B,kBA4DRC,QAAAA,CAASC,CAATD,gBA5DQ,oBAoELE,QAAAA,CAASD,CAATC,WApEK,eA6EVC,QAAAA,CAASF,CAATE,QACPC,CAAA,IAAIV,CAAJU,SAAA,EAAwBR,CAAxB,EADOO,CA7EU;eAqFTE,QAAAA,SACRD,CAAA,IAAIV,CAAJU,SAAA,CAAuBN,CAAvB,CADQO,CArFS,MAiGnBC,QAAAA,CAASL,CAATK,CAAmBC,CAAnBD,QACFC,EADED,CAEGF,CAAA,IAAIV,CAAJU,SAAA,CAAuBP,CAAvB,CAFHS,CAIEF,CAAA,IAAIV,CAAJU,SAAA,+pCAJFE,CAjGmB;cA8GVE,QAAAA,CAASP,CAATO,QACPJ,CAAA,IAAIV,CAAJU,SAAA,CAAuBN,CAAvB,CADOU,CA9GU,CAkH1Bb,EAAAI,UAAAU,YAlH0B,CAkHSd,CAlHT,mBAqHNA,CArHM,EAA3B;",
-"sources":["emptyFileClient.js.src"],
-"names":["define","Deferred","FileClient","reameFile","reameFileMeta","emptyRoot","prototype","fileServiceName","location","fileServiceRootURL","fetchChildren","resolve","loadWorkspaces","read","isMetadata","loadWorkspace","constructor"]
-}

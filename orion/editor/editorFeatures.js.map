@@ -1,8 +1,0 @@
-{
-"version":3,
-"file":"editorFeatures.js",
-"lineCount":12,
-"mappings":"A;;;;;;;;;;;AAaAA,MAAA,2HAKG,QAAA,CAASC,CAAT,CAAqBC,CAArB,CAA+BC,CAA/B,CAA4CC,CAA5C,QACKA,EAAAC,MAAA,IAAkBJ,CAAlB,CAA8BC,CAA9B,CAAwCC,CAAxC,CADL,CALH;",
-"sources":["editorFeatures.js.src"],
-"names":["define","mFactories","mActions","mLinkedMode","objects","mixin"]
-}

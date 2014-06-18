@@ -1,8 +1,0 @@
-{
-"version":3,
-"file":"messages.js",
-"lineCount":10,
-"mappings":"A;;;;;;;;;AASAA,MAAA,6EAAqF,QAAA,CAASC,CAAT,CAAiBC,CAAjB,MAChFC,QACGD,CADHC,CAGJC,OAAAC,KAAA,CAAYJ,CAAZ,CAAAK,QAAA,CAA4B,QAAA,CAASC,CAAT,sBAChBJ,EAAA,CAAOI,CAAP,CADgB,GAE1BJ,CAAA,CAAOI,CAAP,CAF0B,CAEZN,CAAA,CAAOM,CAAP,CAFY,EAA5B,CAJoF,OAS7EJ,EAT6E,CAArF;",
-"sources":["messages.js.src"],
-"names":["define","bundle","root","result","Object","keys","forEach","key"]
-}

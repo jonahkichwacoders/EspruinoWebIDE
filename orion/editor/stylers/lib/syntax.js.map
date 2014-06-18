@@ -1,8 +1,0 @@
-{
-"version":3,
-"file":"syntax.js",
-"lineCount":14,
-"mappings":"A;;;;;;;;;;AAaAA,MAAA,sCAA8C,QAAA;;;sVAA9C;",
-"sources":["syntax.js.src"],
-"names":["define"]
-}

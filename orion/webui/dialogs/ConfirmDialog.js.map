@@ -1,8 +1,0 @@
-{
-"version":3,
-"file":"ConfirmDialog.js",
-"lineCount":12,
-"mappings":"A;;;;;;;;;;AAaAA,MAAA,4HACA,QAAA,CAASC,CAAT,CAAmBC,CAAnB,CAA2BC,CAA3B,CAAkDC,CAAlD,EAiBCC,QAASA,EAATA,CAAuBC,CAAvBD,EACCD,CAAAG,OAAA,MACAC,WAAA,CAAWF,CAAX,CAFDD,CAKAA,CAAAI,UAtBD,CAsB2BC,MAAAC,OAAA,CAAcT,CAAAU,OAAAH,UAAd,CAC1BJ,EAAAI,UAAAI,YAvBD,CAuBuCR,CAEtCA,EAAAI,UAAAK,SAzBD,CAyBoCX,CAEnCE,EAAAI,UAAAD,MA3BD,CA2BiCO,QAAAA,CAAST,CAATS,EAC/BC,UAD+BD,CAClBT,CAAAU,MADkBD,EACDE,QAAAD,MAE9Bf,cAH+Bc,iBAIdT,CAAAY,eAJcH,CAO/BI,WAP+BJ,GAU9BK,aAV8BL,CAS3BT,CAAAe,YAT2BN,uBAWLd,CAAA,IAXKc,UAWsBO,mBAAAC,KAAA;MAXtBR,sBAYNd,CAAA,GAZMc,UAYoBO,mBAAAC,KAAA,WAZpBR,wBAgBNd,CAAA,GAhBMc,UAgBoBO,mBAAAC,KAAA,WAhBpBR,0BAiBFd,CAAA,OAjBEc,UAiB4BO,mBAAAC,KAAA,eAjB5BR,EAqB/BS,iBAAA,EArB+BT,CA+BhCV,EAAAI,UAAAa,eA1DD,CA0D0CG,QAAAA,CAASC,CAATD,EACxCE,kBAAA,OAA0BD,CAA1B,EACAE,UAAA,EAFwCH,CA1D1C,sBAgEwBpB,CAhExB,EADA;",
-"sources":["ConfirmDialog.js.src"],
-"names":["define","messages","dialog","ConfirmDialogFragment","EventTarget","ConfirmDialog","options","attach","_init","prototype","Object","create","Dialog","constructor","TEMPLATE","ConfirmDialog.prototype._init","title","document","confirmMessage","modal","buttons","yesNoDialog","_buttonPressed","bind","_initialize","ConfirmDialog.prototype._buttonPressed","eventType","dispatchEvent","hide"]
-}

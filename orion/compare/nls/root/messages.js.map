@@ -1,8 +1,0 @@
-{
-"version":3,
-"file":"messages.js",
-"lineCount":12,
-"mappings":"A;;;;;;;;;AAYAA,MAAA,EACC,wCADD,0CAEC,wCAFD,0CAGC,wBAHD,4CAKC,6BALD,+BAMC,cAND,gBAOC,mCAPD,qCAQC,eARD,iBASC,iBATD,mBAUC,qBAVD;AAWC,kBAXD,oBAYC,sBAZD,wBAaC,oBAbD,wCAeC,uBAfD,yBAgBC,aAhBD,eAiBC,4BAjBD,8BAkBC,SAlBD,WAmBC,YAnBD,cAoBC,eApBD,wDAuBC,iBAvBD,mBAwBC,gBAxBD,kBAyBC,uCAzBD;AA0BC,qDA1BD;",
-"sources":["messages.js.src"],
-"names":["define"]
-}

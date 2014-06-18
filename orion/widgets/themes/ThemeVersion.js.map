@@ -1,8 +1,0 @@
-{
-"version":3,
-"file":"ThemeVersion.js",
-"lineCount":11,
-"mappings":"A;;;;;;;;;;AAWAA,MAAA,IAAW,QAAA,eAAX;",
-"sources":["ThemeVersion.js.src"],
-"names":["define"]
-}

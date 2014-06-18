@@ -1,8 +1,0 @@
-{
-"version":3,
-"file":"syntax.js",
-"lineCount":12,
-"mappings":"A;;;;;;;;;;AAaAA,MAAA,wGAAgH,QAAA,CAASC,CAAT,MAC3GC,EAAW,4TAAA,MAAA,KAgBXC,EAjB2G,CAiBhGF,CAAAE,SACfA,EAAAC,KAAA;iEAMqCF,CAAAG,KAAA,KANrC,gDAlB+G,WA8B1GF,CAAA,CAASA,CAAAG,OAAT,GAAAC,GA9B0G,UA+BpGJ,CA/BoG,UAgCpGD,CAhCoG,EAAhH;",
-"sources":["syntax.js.src"],
-"names":["define","mJSON","keywords","grammars","push","join","length","id"]
-}

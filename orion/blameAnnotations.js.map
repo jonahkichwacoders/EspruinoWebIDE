@@ -1,8 +1,0 @@
-{
-"version":3,
-"file":"blameAnnotations.js",
-"lineCount":11,
-"mappings":"A;;;;;;;;;;AAaAA,MAAA,gDAAwD,QAAA,CAASC,CAAT,EAGvDC,QAASA,EAATA,CAAsBC,CAAtBD,EACCE,qBADDF,CACyBC,CACxBF,EAAAI,OAAA,MACAC,0BAHDJ,CAG6BC,CAAAI,gBAAA,yBAH7BL,CAMAA,CAAAM,UATuD,kBAWrCC,QAAAA,CAASC,CAATD,EAChBC,cADgBD,CACCC,CACjBC,mBAAA,gCAAmDD,CAAnD,EAFgBD,CAXqC,CAgBvDP,EAAAM,UAAAI,YAhBuD,CAgBlBV,CAhBkB,qBAmBjCA,CAnBiC,EAAxD;",
-"sources":["blameAnnotations.js.src"],
-"names":["define","EventTarget","BlameService","serviceRegistry","_serviceRegistry","attach","_serviceRegistration","registerService","prototype","_setAnnotations","blameInfo","dispatchEvent","constructor"]
-}

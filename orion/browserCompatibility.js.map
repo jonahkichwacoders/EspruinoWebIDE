@@ -1,8 +1,0 @@
-{
-"version":3,
-"file":"browserCompatibility.js",
-"lineCount":12,
-"mappings":"A;;;;;;;;;AAYC,SAAA,GACAA,QAASA,EAATA,WACKC,EAAYC,SAAAD,UADjBD,CAEKG,yBAFLH,CAOKI,gWAPLJ,CAaUK,GAbVL,CAaiBK,CAbjBL,CAaqBI,CAAAE,OAbrBN,CAayCK,CAbzCL,QAcMO,EAAUH,CAAA,CAAYC,CAAZ,CAdhBL,CAeMQ,EAAUP,CAAAQ,MAAA,CAAgBF,CAAAG,OAAhB,CAfhBV,IAgBMQ,CAhBNR,EAiBGG,CAAAI,QAjBHP;EAkBGG,EAAAQ,QAlBHX,CAkByBQ,CAAA,GAlBzBR,EAkB6CO,CAAAK,WAC1CT,EAAAU,KAnBHb,CAmBsBO,CAAAM,KAnBtBb,cAwBQG,EAxBRH,CA2BAc,QAASA,EAATA,6BAE2BC,OAF3BD,SAEqCC,MAAA,aAFrCD,OAGUE,CAHVF,YAQAG,QAASA,EAATA,CAA2BC,CAA3BD,EACCE,KAAA,CAAMD,CAAN,CADDD,MAEWG,MAAJ,uBAFPH,EApCA,IAyCId,EAAcH,CAAA,EAzClB,IA4CKG,CAAAI,QA5CL,CAsDYJ,CAAAQ,QAtDZ,EAwDCM,CAAA,2GAA8Hd,CAAAU,KAA9H,OAxDD,SA6CKC,CAAA,EA7CL,GA6CgCO,YAAA,iBA7ChC,IA8CMC,OAAA,uIA9CN,CA+CGD,YAAA,iBA/CH;sCAmDaP,EAAA,EAnDb,EAoDEG,CAAA,6IApDF,2BA4DqBjB,CA5DrB,sBA6DuBc,CA7DvB,mBA8DoBG,CA9DpB,GAAA;",
-"sources":["browserCompatibility.js.src"],
-"names":["isSupportedBrowser","userAgent","navigator","isSupported","browserData","i","length","browser","matches","match","regExp","version","minVersion","name","supportsLocalStorage","window","e","throwBrowserAlert","message","alert","Error","localStorage","confirm"]
-}

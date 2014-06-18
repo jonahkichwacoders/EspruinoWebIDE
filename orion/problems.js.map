@@ -1,8 +1,0 @@
-{
-"version":3,
-"file":"problems.js",
-"lineCount":11,
-"mappings":"A;;;;;;;;;;AAaAA,MAAA,uBAA8B,QAAA,CAASC,CAAT,EAS7BC,QAASA,EAATA,CAAwBC,CAAxBD,EACCE,qBADDF,CACyBC,CACxBF,EAAAI,OAAA,MACAC,0BAHDJ,CAG6BC,CAAAI,gBAAA,0BAH7BL,CAMAA,CAAAM,UAf6B,eAiBdC,QAAAA,CAASC,CAATD,EACbC,aADaD,CACGC,CAChBC,mBAAA,kCAAqDD,CAArD,EAFaD,CAjBc,CAsB7BP,EAAAM,UAAAI,YAtB6B,CAsBUV,CAtBV,uBAyBLA,CAzBK,EAA9B;",
-"sources":["problems.js.src"],
-"names":["define","EventTarget","ProblemService","serviceRegistry","_serviceRegistry","attach","_serviceRegistration","registerService","prototype","_setProblems","problems","dispatchEvent","constructor"]
-}

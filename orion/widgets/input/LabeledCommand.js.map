@@ -1,8 +1,0 @@
-{
-"version":3,
-"file":"LabeledCommand.js",
-"lineCount":12,
-"mappings":"A;;;;;;;;;;AAaAA,MAAA,2CAAmD,QAAA,CAASC,CAAT,CAAkBC,CAAlB,EAElDC,QAASA,EAATA,CAAwBC,CAAxBD,CAAiCE,CAAjCF,EACCF,CAAAK,MAAA,MAAoBF,CAApB,CACAC,UAFDF,CAEaE,CAFbF,EAEqBI,QAAAC,cAAA,OAFrBL,CAIAF,CAAAK,MAAA,CAAcH,CAAAM,UAAd,0IAKOC,QAAAA,GACLL,SAAAM,UADKD,CACiBE,mBACtBC,aAFKH,CAEUR,CAAAY,EAAA,6BAAmCT,SAAnC,CACfU,eAHKL,CAGYR,CAAAY,EAAA,oBAA0BT,SAA1B,CACjBW,gBAAA,EAJKN,CALP,SAYUO,QAAAA,GACRf,CAAAgB,MAAA,CAAUb,SAAV,CADQY,CAZV;WAgBmBD,QAAAA,GACRH,YAAAM,YADQH,CACmBI,eAG3BC,oBAAAC,eAAA,CAAmCC,YAAnC,CAAiDR,cAAjD,SAA0EK,eAA1E,UAAqGI,aAArG,gBAJQR,CAhBnB,EANkD,OA6BxCb,EA7BwC,CAAnD;",
-"sources":["LabeledCommand.js.src"],
-"names":["define","objects","lib","LabeledCommand","options","node","mixin","document","createElement","prototype","show","innerHTML","templateString","mylabel","$","myCommand","postCreate","destroy","empty","textContent","fieldlabel","commandService","renderCommands","scopeId","keyIndex"]
-}

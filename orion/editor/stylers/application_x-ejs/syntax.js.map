@@ -1,8 +1,0 @@
-{
-"version":3,
-"file":"syntax.js",
-"lineCount":12,
-"mappings":"A;;;;;;;;;;AAaAA,MAAA,wLACC,QAAA,CAASC,CAAT,CAAeC,CAAf,CAAoBC,CAApB,EAEIC,CAFJ,CAEeH,CAAAG,SAAAC,OAAA,CAAqBH,CAAAE,SAArB,CAAAC,OAAA,CAA0CF,CAAAC,SAA1C,CACfA,EAAAE,KAAA;mGAHA,WAyBKF,CAAA,CAASA,CAAAG,OAAT,GAAAC,GAzBL,UA0BWJ,CA1BX,cADD;",
-"sources":["syntax.js.src"],
-"names":["define","mLib","mJS","mXML","grammars","concat","push","length","id"]
-}

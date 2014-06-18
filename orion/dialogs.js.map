@@ -1,8 +1,0 @@
-{
-"version":3,
-"file":"dialogs.js",
-"lineCount":11,
-"mappings":"A;;;;;;;;;;AAaAA,MAAA,IAAW,QAAA,GAUVC,QAASA,EAATA,CAAuBC,CAAvBD,EACCE,qBADDF,CACyBC,CACxBE,0BAFDH,CAE6BC,CAAAG,gBAAA,0BAF7BJ,CAKAA,CAAAK,UAfU,UAqBEC,QAAAA,CAASC,CAATD,CAAcE,CAAdF,EACVE,CAAA,CAAOC,MAAAH,QAAA,CAAeC,CAAf,CAAP,CADUD,CArBF,WA4BGI,QAAAA,CAASF,CAATE,GA5BH,CAgCVV,EAAAK,UAAAM,YAhCU,CAgC4BX,CAhC5B,sBAkCaA,CAlCb,EAAX;",
-"sources":["dialogs.js.src"],
-"names":["define","DialogService","serviceRegistry","_serviceRegistry","_serviceRegistration","registerService","prototype","confirm","msg","onDone","window","openFiles","constructor"]
-}

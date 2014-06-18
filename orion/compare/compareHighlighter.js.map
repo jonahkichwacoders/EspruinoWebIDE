@@ -1,8 +1,0 @@
-{
-"version":3,
-"file":"compareHighlighter.js",
-"lineCount":13,
-"mappings":"A;;;;;;;;;;;AAcAA,MAAA,0GAIA,QAAA,CAASC,CAAT,CAAmBC,CAAnB,CAAoCC,CAApC,CAAkDC,CAAlD,MACIC,IAcJA,EAAAC,mBAfA,CAe8B,QAAA,GAC7BA,QAASA,EAATA,GACCC,WADDD,MAGAA,CAAAE,UAJ6B,YAKjBC,QAAAA,CAASC,CAATD,CAAmBE,CAAnBF,CAAgCG,CAAhCH,EACNF,WADME,GAETF,WAAAM,QAAA,EAFSJ,CAGTF,WAHSE,MAjBRK,EAiBQL,CAKUC,CAtBNK,MAAA,KACZC,EAgBQP,QAfTK,CAAAG,OAeSR,GAdXO,CAcWP,CAdLK,CAAA,CAAUA,CAAAG,OAAV,GAcKR,KAZZ,CAYYA,CAZLO,CAYKP,EAOLS,CAPKT,CAOMG,CAAAO,YAAA,EAPNV,KAQLW,EAAkBR,CAAAS,mBAAA,EARbZ,QASFa,CATEb,mCAaPF,WAbOE,CAaO,IAAIL,CAAAmB,WAAJ,CAA2BL,CAA3B,CAAqCI,CAArC,CAA2CF,CAA3C,CAbPX,mBAgBPF,WAhBOE;AAgBO,IAAIP,CAAAsB,eAAJ,CAAmCN,CAAnC,CAA6C,IAAIf,CAAAsB,YAAjD,CAhBPhB,OAmBFiB,CAAA,IAAIzB,CAAJyB,SAAA,CAAuBd,CAAvB,CAnBEH,aALiB,QA6BtBH,EA7BsB,CAAA,EAf9B,OA+COD,EA/CP,CAJA;",
-"sources":["compareHighlighter.js.src"],
-"names":["define","Deferred","mTextMateStyler","mHtmlGrammar","mTextStyler","exports","DefaultHighlighter","styler","prototype","highlight","fileName","contentType","editor","destroy","splitName","split","ext","length","textView","getTextView","annotationModel","getAnnotationModel","lang","TextStyler","TextMateStyler","HtmlGrammar","resolve"]
-}

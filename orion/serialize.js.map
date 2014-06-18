@@ -1,8 +1,0 @@
-{
-"version":3,
-"file":"serialize.js",
-"lineCount":11,
-"mappings":"A;;;;;;;;;;AAWAA,MAAA,IAAW,QAAA,yBAQVC,QAAAA,CAAwBC,CAAxBD,MACKE,EAASD,CAATC,CAAiBC,IAAAC,MAAA,CAAWD,IAAAE,UAAA,CAAeJ,CAAf,CAAX,CAAjBC,CAAqDD,CACrDA,EAFLD,WAEsBM,MAFtBN,GAGEE,CAAAK,UAHFP,IAIEE,CAAAM,QAJFR,CAImBE,CAAAM,QAJnBR,EAIqCC,CAAAO,QAJrCR,CAKEE,CAAAO,KALFT,CAKgBE,CAAAO,KALhBT,EAK+BC,CAAAQ,KAL/BT,CAMEE,CAAAQ,MANFV,CAMiBE,CAAAQ,MANjBV,EAMiCC,CAAAS,MANjCV,QAQQE,EARRF,CARU,EAAX;",
-"sources":["serialize.js.src"],
-"names":["define","serializeError","error","result","JSON","parse","stringify","Error","__isError","message","name","stack"]
-}
