@@ -1,4 +1,3 @@
-
 /*******************************************************************************
  * @license
  * Copyright (c) 2014 IBM Corporation and others.
@@ -21,24 +20,22 @@ define("orion/editor/stylers/text_x-yaml/syntax", [], function() { //$NON-NLS-0$
 		id: id,
 		contentTypes: ["text/x-yaml"], //$NON-NLS-0$
 		patterns: [
-			{include: "#numberSignComment"}, //$NON-NLS-0$
 			{
 				match: "^%(?:YAML|TAG)\\s.*", //$NON-NLS-0$
 				name: "meta.directive.yaml" //$NON-NLS-0$
 			}, {
-				begin: "^.*?:(?:[\\t ]|$)", //$NON-NLS-0$
+				match: "---|\\.\\.\\.", //$NON-NLS-0$
+				name: "meta.separator.yaml" //$NON-NLS-0$
+			}, {
+				begin: "^.*?:\\s", //$NON-NLS-0$
 				end: "$", //$NON-NLS-0$
 				contentName: "string.unquoted.yaml", //$NON-NLS-0$
-				beginCaptures: {
-					0: {
-						name: "entity.name.key.yaml"
-					}
-				},
 				patterns: [
-					{include: "#numberSignComment"}, //$NON-NLS-0$
 					{
-						match: "^\\s*[&*]\\s*$", //$NON-NLS-0$
-						name: "entity.name.tag.yaml" //$NON-NLS-0$
+						include: "#numberSignComment" //$NON-NLS-0$
+					}, {
+						match: "^\\s*[&*]\\s*$",  //$NON-NLS-0$
+						name: "entity.name.tag.yaml"  //$NON-NLS-0$
 					}, {
 						match: "(?i)^\\s*(?:" + keywords.join("|") + ")\\s*$", //$NON-NLS-2$ //$NON-NLS-1$ //$NON-NLS-0$
 						name: "keyword.control.yaml" //$NON-NLS-0$
@@ -46,25 +43,23 @@ define("orion/editor/stylers/text_x-yaml/syntax", [], function() { //$NON-NLS-0$
 						match: "(?i)^\\s*(?:" + casts.join("|") + ")\\b", //$NON-NLS-2$ //$NON-NLS-1$ //$NON-NLS-0$
 						name: "keyword.control.yaml" //$NON-NLS-0$
 					}, {
-						match: "(?i)^\\s*(?:-?[0-9]*(?:\\.[0-9]+)?(?:e[-+][1-9][0-9]*)?)\\s*$", //$NON-NLS-0$
-						name: "constant.numeric" //$NON-NLS-0$
+						match: "(?i)^\\s*(?:-?[0-9]*(?:\\.[0-9]+)?(?:e[-+][1-9][0-9]*)?)\\s*$",  //$NON-NLS-0$
+						name: "constant.numeric"  //$NON-NLS-0$
 					}, {
-						match: "(?i)^\\s*(?:-?[1-9][0-9]*|0|-?\\.inf|\\.nan)\\s*$", //$NON-NLS-0$
-						name: "constant.numeric" //$NON-NLS-0$
+						match: "(?i)^\\s*(?:-?[1-9][0-9]*|0|-?\\.inf|\\.nan)\\s*$",  //$NON-NLS-0$
+						name: "constant.numeric"  //$NON-NLS-0$
 					}
 				]
-			}, {
-				match: "---|\\.\\.\\.", //$NON-NLS-0$
-				name: "meta.separator.yaml" //$NON-NLS-0$
 			}
 		],
 		repository: {
 			numberSignComment: {
-				begin: {match: "(?:^|\\s)#", literal: "#"}, //$NON-NLS-0$
-				end: {match: "$", literal: ""}, //$NON-NLS-0$
+				match: "(?:^|\\s)#.*", //$NON-NLS-0$
 				name: "comment.line.number-sign.yaml", //$NON-NLS-0$
 				patterns: [
-					{include: "orion.lib#todo_comment_singleLine"} //$NON-NLS-0$
+					{
+						include: "orion.lib#todo_comment_singleLine"
+					}
 				]
 			}
 		}
