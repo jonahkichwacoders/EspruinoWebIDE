@@ -16,12 +16,6 @@
 
   function init() {
     $('<div id="divcode" style="width:100%;height:100%;display:none"><pre class="orioneditor" data-editor-lang="js" style="height:95%"></pre></div>').appendTo(".editor--code .editor__canvas");
-    require({
-                baseUrl: '',
-                paths: {
-                        i18n: 'js/libs/requirejs/i18n'
-                }
-        });
     require(["orion/editor/edit"], function(edit) {
 
       orionEditor = edit({className: "orioneditor", lang: "javascript"})[0];
