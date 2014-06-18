@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"syntax.js",
+"lineCount":13,
+"mappings":"A;;;;;;;;;;AAaAA,MAAA,8CAAsD,QAAA,OACjDC,yBADiD,CAEjDC,EAAQ,sDAAA,MAAA,KAFyC;mDA4BxBD,CAAAE,KAAA,KA5BwB,6DA+BxBD,CAAAC,KAAA,KA/BwB;2GA6D1CD,CAAAE,OAAA,CAAaH,CAAb,CA7D0C,EAAtD;",
+"sources":["syntax.js.src"],
+"names":["define","keywords","casts","join","concat"]
+}

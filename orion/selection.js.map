@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"selection.js",
+"lineCount":12,
+"mappings":"A;;;;;;;;;;AAYAA,MAAA,wCAAgD,QAAA,CAASC,CAAT,CAAsBC,CAAtB,EAY/CC,QAASA,EAATA,CAAmBC,CAAnBD,CAAoCE,CAApCF,EACME,CADNF,GAEEE,CAFFF,wBAKCG,sBALDH,CAKyBC,CACxBH,EAAAM,OAAA,MACAC,0BAPDL,CAO6BC,CAAAK,gBAAA,CAAgCJ,CAAhC,MAC5BK,iBARDP,MAWAA,CAAAQ,UAvB+C,eA6B/BC,QAAAA,CAASC,CAATD,MACVE,EAASC,wBAAA,EADCH,oBAEHC,EAFGD,EAGbC,CAAA,CAAOC,CAAP,CAHaF,OAKPE,EALOF,CA7B+B,eA0C/BI,QAAAA,CAASH,CAATG,MACVF,EAASG,KAAAC,QAAA,CAAcR,gBAAd,CAATI,CAA2CJ,gBAAAS,MAAA,EAA3CL,GADUE,oBAEHH,EAFGG,EAGbH,CAAA,CAAOC,CAAP,CAHaE,OAKPF,EALOE,CA1C+B,qBAkDzBD,QAAAA,SAChBL,iBADgBK;EACIL,gBAAAU,OADJL,CAEZL,gBAAA,GAFYK,MAlDyB,eA8D/BM,QAAAA,CAASC,CAATD,MACVE,EAAeb,gBACfO,MAAAC,QAAA,CAAcI,CAAd,CAFUD,CAGbX,gBAHaW,GAGMC,CAAAF,OAHNC,CAG+BC,CAAAH,MAAA,EAH/BE,MAKbX,gBALaW,CAIHC,CAJGD,EAKOC,CALPD,MASVE,EATUF,GASOX,gBATPW,EAUbG,kBAAA,oCAAwDT,wBAAA,EAAxD,YAAgGL,gBAAhG,EAVaW,CA9D+B,CAuF/ClB,EAAAQ,UAAAc,YAvF+C,CAuFbtB,CAvFa,kBA0F5BA,CA1F4B,EAAhD;",
+"sources":["selection.js.src"],
+"names":["define","EventTarget","Deferred","Selection","serviceRegistry","selectionServiceId","_serviceRegistry","attach","_serviceRegistration","registerService","_selections","prototype","getSelection","onDone","result","_getSingleSelection","getSelections","Array","isArray","slice","length","setSelections","itemOrArray","oldSelection","dispatchEvent","constructor"]
+}

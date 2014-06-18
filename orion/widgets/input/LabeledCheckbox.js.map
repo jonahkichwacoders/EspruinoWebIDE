@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"LabeledCheckbox.js",
+"lineCount":12,
+"mappings":"A;;;;;;;;;;AAaAA,MAAA,0EAAoF,QAAA,CAASC,CAAT,CAAkBC,CAAlB,CAAuBC,CAAvB,EAKnFC,QAASA,EAATA,CAA0BC,CAA1BD,CAAkCE,CAAlCF,EACCD,CAAAI,MAAA,MAAqBC,SAArB,CACAC,aAFDL,CAEgBF,CAAAQ,EAAA,kBAAwBJ,SAAxB,CAFhBF,CAIAH,CAAAU,MAAA,CAAcP,CAAAQ,UAAd,CAAyCT,CAAAS,UAAzC,yLAOaC,QAAAA,GACXV,CAAAS,UAAAC,WAAAC,KAAA,MACAL,aAAAM,YAFWF,CAEgBG,eAFhBH,KAPb,SAYUI,QAAAA,GACRd,CAAAS,UAAAK,QAAAH,KAAA,MACIL;YAFIQ,GAGPR,YAHOQ,OAZV,EATmF,OA6B5Eb,EA7B4E,CAApF;",
+"sources":["LabeledCheckbox.js.src"],
+"names":["define","objects","lib","Checkbox","LabeledCheckbox","params","node","apply","arguments","mylabel","$","mixin","prototype","postCreate","call","textContent","fieldlabel","destroy"]
+}

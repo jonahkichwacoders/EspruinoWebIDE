@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"customGlobalCommands.js",
+"lineCount":11,
+"mappings":"A;;;;;;;;;;AAaAA,MAAA,IACC,QAAA,YADD;",
+"sources":["customGlobalCommands.js.src"],
+"names":["define"]
+}

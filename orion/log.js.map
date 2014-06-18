@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"log.js",
+"lineCount":11,
+"mappings":"A;;;;;;;;;;AAaAA,MAAA,6BAAoC,QAAA,CAASC,CAAT,MAEhCC,cAOiBC,QAAAA,CAASC,CAATD,EACpBE,qBADoBF,CACIC,CACxBE,0BAFoBH,CAEQC,CAAAG,gBAAA,uBAFRJ,CAPjBD,CAYJA,EAAAM,WAAAC,UAdoC,OAmB5BC,QAAAA,CAASC,CAATD,EAGNL,qBAAAO,WAAA,sBAAAC,WAAA,CAAkEZ,CAAA,CAAS,OAAT,CAAlE,CAAsFU,CAAtF,CAHMD,CAnB4B,QA0B7BR,EA1B6B,CAApC;",
+"sources":["log.js.src"],
+"names":["define","messages","exports","exports.LogService","serviceRegistry","_serviceRegistry","_serviceRegistration","registerService","LogService","prototype","info","message","getService","setMessage"]
+}

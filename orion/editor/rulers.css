@@ -1,4 +1,4 @@
-/* Styles for rulers */
+
 .ruler {
 }
 .ruler.annotations {
@@ -13,8 +13,6 @@
 .ruler.overview {
 	width: 14px;
 }
-
-/* Styles for the line number ruler */
 .rulerLines {
 	color: silver;
 }

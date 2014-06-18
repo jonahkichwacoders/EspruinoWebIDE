@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"regex.js",
+"lineCount":12,
+"mappings":"A;;;;;;;;;;;AAkBAA,MAAA,kBAA0B,QAAA,iBASzBC,QAAAA,CAAgBC,CAAhBD,QACQC,EAAAC,QAAA,0CADRF,CATyB,OAyBzBG,QAAAA,CAAeF,CAAfE,SACKC,CADLD,CACcE,mCAAA,CAAoCJ,CAApC,CADdE,WAIaC,CAAA,GAJbD,OAKWC,CAAA,GALXD,OAzByB,EAA1B;",
+"sources":["regex.js.src"],
+"names":["define","escape","str","replace","parse","regexp","exec"]
+}

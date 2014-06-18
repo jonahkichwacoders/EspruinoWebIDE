@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"syntax.js",
+"lineCount":13,
+"mappings":"A;;;;;;;;;;AAaAA,MAAA,iFAAyF,QAAA,CAASC,CAAT,MACpFC,EAAW,6MAAA,MAAA,KAmBXC,EApBoF,CAoBzEF,CAAAE,SACfA,EAAAC,KAAA;0eA8BqBF,CAAAG,KAAA,KA9BrB;0JArBwF,WA+DnFF,CAAA,CAASA,CAAAG,OAAT,GAAAC,GA/DmF,UAgE7EJ,CAhE6E,UAiE7ED,CAjE6E,EAAzF;",
+"sources":["syntax.js.src"],
+"names":["define","mLib","keywords","grammars","push","join","length","id"]
+}

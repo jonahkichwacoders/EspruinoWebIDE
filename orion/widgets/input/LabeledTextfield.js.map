@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"LabeledTextfield.js",
+"lineCount":12,
+"mappings":"A;;;;;;;;;;AAaAA,MAAA,2EAAoF,QAAA,CAASC,CAAT,CAAkBC,CAAlB,CAAuBC,CAAvB,EAEnFC,QAASA,EAATA,CAA0BC,CAA1BD,CAAmCE,CAAnCF,EACCD,CAAAI,MAAA,MAAsBC,SAAtB,CACAC,aAFDL,CAEgBF,CAAAQ,EAAA,kBAAwBJ,SAAxB,CAFhBF,CAIAH,CAAAU,MAAA,CAAcP,CAAAQ,UAAd,CAA0CT,CAAAS,UAA1C,qNAQUC,QAAAA,GACRV,CAAAS,UAAAC,QAAAC,KAAA,MACIL,aAFII,GAGPJ,YAHOI,OARV;WAemBE,QAAAA,GACjBZ,CAAAS,UAAAG,WAAAD,KAAA,MACSL,aAAAO,YAFQD,CAEmBE,eAFnBF,KAfnB,EANmF,OA0BzEX,EA1ByE,CAApF;",
+"sources":["LabeledTextfield.js.src"],
+"names":["define","objects","lib","TextField","LabeledTextfield","options","node","apply","arguments","mylabel","$","mixin","prototype","destroy","call","postCreate","textContent","fieldlabel"]
+}

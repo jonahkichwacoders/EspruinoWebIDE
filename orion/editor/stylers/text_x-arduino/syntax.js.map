@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"syntax.js",
+"lineCount":11,
+"mappings":"A;;;;;;;;;;AAaAA,MAAA,0FAAkG,QAAA,CAASC,CAAT,EAC7FC,CAD6F,CAClFD,CAAAC,SADkF,KAE7FC,EAAUD,CAAA,CAASA,CAAAE,OAAT,GACdD,EAAAE,GAHiG,gBAIjGF,EAAAG,aAJiG,8BAM5FH,CAAAE,GAN4F,UAOtFH,CAPsF,UAQtFC,CAAAI,SARsF,EAAlG;",
+"sources":["syntax.js.src"],
+"names":["define","mC","grammars","grammar","length","id","contentTypes","keywords"]
+}

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"jsTemplateContentAssist.js",
+"lineCount":32,
+"mappings":"A;;;;;;;;;;;;;AAeAA,MAAA,wHAGG,QAAA,CAASC,CAAT,CAAqBC,CAArB,EAmcFC,QAASA,EAATA,IAncE,IAiBEC;;;wQAuE2CC,IAAAC,UAAA,qBApFtC,qDAAA,MAAA,KAoFsC,EAAAC,QAAA,WAvE3CH;;;;;;;;;;;;;;;6KAobJD,EAAAK,UArcE,CAqc0C,IAAIP,CAAAQ,sBAAJ,CAAqCP,CAAAQ,SAArC,CAAmDN,CAAnD,CAgB5CD,EAAAK,UAAAG,QArdE,CAqdkDC,QAAAA,CAASC,CAATD,CAAiBE,CAAjBF,CAAyBG,CAAzBH,CAAiCI,CAAjCJ,EAC/CK,CAD+CL,CACxCE,CAAAI,OAAA,CAAcH,CAAd,CAAqBF,CAAAM,OAArB,GADwCP,QAE3CK,CAF2CL,OAtc3BQ,uBAwcRC,QAAA,CAA2BJ,CAA3B,CAFmCL,CArdlD,wCA2dgCT,CA3dhC,EAHH;",
+"sources":["jsTemplateContentAssist.js.src"],
+"names":["define","mTemplates","mJS","JSTemplateContentAssistProvider","templates","JSON","stringify","replace","prototype","TemplateContentAssist","keywords","isValid","JSTemplateContentAssistProvider.prototype.isValid","prefix","buffer","offset","context","char","charAt","length","uninterestingChars","indexOf"]
+}

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"commonHTMLFragments.js",
+"lineCount":12,
+"mappings":"A;;;;;;;;;;;AAcAA,MAAA,uEACQ,QAAA,CAASC,CAAT,CAAkBC,CAAlB,CAAuBC,CAAvB,8BAOPC,QAAAA,CAA8BC,CAA9BD,MACKE,EAAUC,QAAAC,cAAA,OACdF,EAAAG,UAFDL,CAEqBD,CAFrBC,KAKKM,EAAOR,CAAAS,EAAA,mBAAyBL,CAAzB,CACXI,EAAAE,GANDR,CAMWC,CANXD,CAMsBM,CAAAE,GACrBF,EAPDN,CAOQF,CAAAS,EAAA,0BAAgCL,CAAhC,CACPI,EAAAE,GARDR,CAQWC,CARXD,CAQsBM,CAAAE,GACrBF,EATDN,CASQF,CAAAS,EAAA,uBAA6BL,CAA7B,CACPI,EAAAE,GAVDR,CAUWC,CAVXD,CAUsBM,CAAAE,GAVtBR,OAWQE,EAAAG,UAXRL,CAPO,EADR;",
+"sources":["commonHTMLFragments.js.src"],
+"names":["define","require","lib","SlideoutTemplate","slideoutHTMLFragment","idPrefix","tempDiv","document","createElement","innerHTML","node","$","id"]
+}

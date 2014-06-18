@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"i18n.js",
+"lineCount":11,
+"mappings":"A;;;;;;;;;;AAYAA,MAAA,OACOC,QAAAA,CAASC,CAATD,CAAeE,CAAfF,CAA8BG,CAA9BH,CAAsCI,CAAtCJ,EACDE,CAAAG,UADCL,EAC0BE,CAAAG,UAAA,mBAD1BL,CAEJE,CAAA,gBAA+BD,CAA/B,EAAsC,QAAA,CAASK,CAAT,EACrCH,CAAA,CAAOG,CAAP,CADqC,CAAtC,CAFIN,CAMJE,CAAA,yBAAuC,QAAA,CAASE,CAAT,EACtCD,CAAA,CAAQC,CAAR,EAAkBA,CAAAE,UAAlB,KADsC,CAAvC,CANIN,CADP;",
+"sources":["i18n.js.src"],
+"names":["define","load","name","parentRequire","onLoad","config","specified","languages"]
+}

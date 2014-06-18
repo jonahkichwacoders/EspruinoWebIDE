@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Checkbox.js",
+"lineCount":12,
+"mappings":"A;;;;;;;;;;AAaAA,MAAA,2CAAmD,QAAA,CAASC,CAAT,CAAkBC,CAAlB,EAElDC,QAASA,EAATA,CAAkBC,CAAlBD,CAA2BE,CAA3BF,EACCF,CAAAK,MAAA,MAAoBF,CAApB,CACAC,UAFDF,CAEaE,CAFbF,EAEqBI,QAAAC,cAAA,OACpBH,UAAAI,UAHDN,CAGuBO,mBACtBC,cAJDR,CAIiBD,CAAAU,EAAA,oBAA0BP,SAA1B,CAJjBF,CAMAF,CAAAK,MAAA,CAAcH,CAAAU,UAAd,iIAMOC,QAAAA,GACLH,aAAAI,iBAAA,UAAyCC,WAAAC,KAAA,MAAzC,CACAC,gBAAA,EAFKJ,CANP,SAWUK,QAAAA,GACJd,SADIc,GAEPjB,CAAAkB,MAAA,CAAUf,SAAV,CAFOc;AAIPR,aAJOQ,CAGPd,SAHOc,OAXV,gBAmBiBE,QAAAA,IAnBjB,WAuBaC,QAAAA,SACJX,cAAAY,QADID,CAvBb,YA2BcE,QAAAA,CAASC,CAATD,EACZb,aAAAY,QADYC,CACYC,CADZD,CA3Bd,cA+BeE,QAAAA,SACNJ,eAAA,EADMI,CA/Bf,cAmCeC,QAAAA,CAASF,CAATE,EACbH,eAAA,CAAgBC,CAAhB,CADaE,CAnCf,QAuCeX,QAAAA,GAEJK,mBAAA,CADYV,aAAAc,MACZ,CAFIT,CAvCf,YA4CmBE,QAAAA,GACRP,aAAAiB,MAAAC,MADQX,OAGJY,cAHIZ,eAGaY,aAHbZ,EAIhBP,aAAAoB,aAAA,uBAJgBb,CA5CnB,EARkD,OA4DxCf,EA5DwC,CAAnD;",
+"sources":["Checkbox.js.src"],
+"names":["define","objects","lib","Checkbox","options","node","mixin","document","createElement","innerHTML","templateString","checkbox","$","prototype","show","addEventListener","change","bind","postCreate","destroy","empty","setStorageItem","isChecked","checked","setChecked","value","getSelection","setSelection","style","width","editmode","setAttribute"]
+}

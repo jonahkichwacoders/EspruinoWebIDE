@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"LabeledSelect.js",
+"lineCount":12,
+"mappings":"A;;;;;;;;;;AAaAA,MAAA,wEAAkF,QAAA,CAASC,CAAT,CAAkBC,CAAlB,CAAuBC,CAAvB,EAKjFC,QAASA,EAATA,CAAwBC,CAAxBD,CAAgCE,CAAhCF,EACCD,CAAAI,MAAA,MAAmBC,SAAnB,CACAC,aAFDL,CAEgBF,CAAAQ,EAAA,kBAAwBJ,SAAxB,CAFhBF,CAIAH,CAAAU,MAAA,CAAcP,CAAAQ,UAAd,CAAuCT,CAAAS,UAAvC,uNAQaC,QAAAA,GACXV,CAAAS,UAAAC,WAAAC,KAAA,MACAL,aAAAM,YAFWF,CAEgBG,eAFhBH;IARb,SAaUI,QAAAA,GACRd,CAAAS,UAAAK,QAAAH,KAAA,MACIL,aAFIQ,GAGPR,YAHOQ,OAbV,EATiF,OA8B1Eb,EA9B0E,CAAlF;",
+"sources":["LabeledSelect.js.src"],
+"names":["define","objects","lib","Select","LabeledSelect","params","node","apply","arguments","mylabel","$","mixin","prototype","postCreate","call","textContent","fieldlabel","destroy"]
+}

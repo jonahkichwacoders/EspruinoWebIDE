@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"htmlGrammar.js",
+"lineCount":13,
+"mappings":"A;;;;;;;;;;AAcAA,MAAA,+BAAuC,QAAA,sBAMtCC,QAAAA;;0IANsC,EAAvC;",
+"sources":["htmlGrammar.js.src"],
+"names":["define","HtmlGrammar"]
+}

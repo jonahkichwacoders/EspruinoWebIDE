@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"search-features.js",
+"lineCount":14,
+"mappings":"A;;;;;;;;;;;AAaAA,MAAA,wHAAkI,QAAA,CAASC,CAAT,CAAcC,CAAd,CAAwBC,CAAxB,CAAyCC,CAAzC,MAG9HC,EAAQA,CAARA,IACJA,EAAAC,gBAJkI,CAIzG,QAAA,GACxBA,QAASA,EAATA,CAAyBC,CAAzBD,EACCE,iBADDF,CACqBC,CAAAE,YADrBH,CAGAA,CAAAI,UAJwB,UAMfC,QAAAA,OACHC,EAASX,CAAAY,KAAA,CAASL,iBAAT,CACbI,EAAAE,UAFOH,CAEYP,CAFZO,KAGHI,EAAMd,CAAAe,EAAA,eAAqBJ,CAArB,CAHHD,CAIHM,EAAShB,CAAAe,EAAA,kBAAwBJ,CAAxB,CAJND,CAKHO,EAAYjB,CAAAe,EAAA,uBAA6BJ,CAA7B,CAChBM,EAAAC,GANOR,uBAOHS,EAAQ,IAAIlB,CAAAmB,SAAJ,OAA6BH,CAA7B,WAAmDH,CAAnD,WAAmEE,CAAnE,cAGZK,OAAAC,WAAA,CAAkB,QAAA,GAAaH,CAAAI,uBAAA,IAAb,CAAlB;IAGAJ,EAAAK,kBAAA,CAAwB,QAAA,CAASZ,CAAT,EACpBA,CADoB,GACXI,CADW,GACDS,mBADC,EACsBA,mBAAAC,cADtB,GAEtBD,mBAAAC,cAAA,EAFsB,CAAAC,KAAA,MAAxB,CAbOjB,KAqBHkB,EAAe1B,CAAA2B,gBAAA,EAChBD,EAtBIlB,EAsBYkB,CAAA3B,SAtBZS,EAuBNkB,CAAA3B,SAAAuB,kBAAA,CAAwC,QAAA,CAASZ,CAAT,EACpCA,CADoC,GAC3BgB,CAAAE,KAD2B,GACNL,mBADM,EACiBA,mBAAAM,YAAA,EADjB,GAEtCN,mBAAAM,YAAA,EAAAR,uBAAA,IAFsC,CAAAI,KAAA,MAAxC,CAvBMjB,CANe,SAqCdsB,QAAAA,IArCc,kBAwCLC,QAAAA,CAASC,CAATD,EACjBR,mBADiBQ,CACKC,CADLD,CAxCK,eA4CRE,QAAAA,sBA5CQ,iBAgDNC,QAAAA,yBAhDM;MAqDjB/B,EArDiB,CAAA,EAJyG,OA4D3HD,EA5D2H,CAAlI;",
+"sources":["search-features.js.src"],
+"names":["define","lib","splitter","mGlobalCommands","FeatureTemplate","orion","SearchUIFactory","option","_parentDivID","parentDivID","prototype","buildUI","parent","node","innerHTML","top","$","bottom","splitNode","id","split","Splitter","window","setTimeout","_adjustToSplitPosition","addResizeListener","_compareWidget","resizeEditors","bind","mainSplitter","getMainSplitter","main","getSplitter","destroy","setCompareWidget","compareWidget","getMatchDivID","getCompareDivID"]
+}
